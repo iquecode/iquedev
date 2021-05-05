@@ -1,0 +1,28 @@
+{
+    "name": "iquecode/ique_dev",
+    "description": "Página de Portfólio",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Henrique Finco Mariani",
+            "email": "iquecode@gmail.com",
+            "role": "Developer",
+            "homepage": "https://ique.dev"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.4"
+    }
+}

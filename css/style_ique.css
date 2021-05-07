@@ -1,0 +1,30 @@
+.iqueModalContainer {
+    width: 100vw;
+    height: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iqueModal {
+    padding: 20px;
+    background-color: #FAFAFA;
+    width: 400px;
+    height: 400px;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    /* border: 10px solid #988b7a;
+    box-shadow: 0 0 0 10px #fff; */
+    position: absolute;
+    top: 40px;
+    border-radius: 10px;
+    color: #616161;
+    font-size: 15px;
+    /* z-index: 2100; */
+}
